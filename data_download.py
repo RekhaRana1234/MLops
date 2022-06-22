@@ -1,5 +1,7 @@
-import wget
+import requests
 
-url = "https://www.python.org/static/img/python-logo@2x.png"
+response = requests.get("https://i.imgur.com/ExdKOOz.png")
 
-wget.download(url, 'c:/users/LikeGeeks/downloads/pythonLogo.png')
+file = open("sample_image.png", "wb")
+file.write(response.content)
+file.close()
