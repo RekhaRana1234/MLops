@@ -25,4 +25,4 @@ jobs:
          
           
       - name: Execute Python Script
-        run: python hello.py
+        run: python data_download.py
