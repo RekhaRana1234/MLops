@@ -1,4 +1,6 @@
 tensorflow
-h5py
 numpy
-scipy
+os
+pandas
+datetime
+sqlalchemy
