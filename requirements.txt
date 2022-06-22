@@ -1,5 +1,2 @@
+tensorflow
 numpy
-pandas
-datetime
-sqlalchemy
-requests
